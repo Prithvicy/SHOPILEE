@@ -3,8 +3,9 @@ import "./Product.css";
 import { useStateValue } from "./StateProvider";
 
 const Product = ({ id ,title, image, price, rating }) => {
-  const [{state} , dispatch] = useStateValue();
+  const [{basket} , dispatch] = useStateValue();
 const addToBasket = () =>{
+  //we create an onclick function where every time we click it sends the data to the data layer(items dispatch to usestatevalue)
   dispatch({
     type : 'ADD_TO_BASKET',
     item:{
