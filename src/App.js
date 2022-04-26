@@ -7,11 +7,17 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import { auth } from "./firebase";
 
-import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { useStateValue } from "./StateProvider";
+import {loadStripe} from "@stripe/stripe-js";
+import {Elements} from "@stripe/react-stripe-js"
+import Payment from "./Payment";
+
+const promise = loadStripe("pk_test_51KsSipSCCbalLSeDOgTASgjQvpyF0dNxLBsJETncVJXX9uJ7w8h4CnbsahBff5BDRwmZclEwVEPSM74A0XudfMIQ00d6AMMmC7");
+
 function App() {
   const [{}, dispatch] = useStateValue();
   useEffect(() => {
+    // will wit until and used logins
     // will only run once when the app component loads...
 
     auth.onAuthStateChanged((authUser) => {
@@ -33,7 +39,7 @@ function App() {
       }
     });
   }, []);
- //can be waiting for basket or user
+  //can be waiting for basket or user
   return (
     //Bem is being followed
     <div className="app">
@@ -65,6 +71,21 @@ function App() {
               <>
                 <Header />
                 <Checkout />
+              </>
+            }
+          />
+          <Route
+            exact
+            path="/payment"
+            element={
+              <>
+                <Header />
+                <Elements stripe={promise}>
+                <Payment />
+
+                </Elements>
+
+
               </>
             }
           />

@@ -1,0 +1,118 @@
+[debug] [2022-04-26T01:50:09.816Z] ----------------------------------------------------------------------
+[debug] [2022-04-26T01:50:09.817Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-04-26T01:50:09.817Z] CLI Version:   10.7.1
+[debug] [2022-04-26T01:50:09.817Z] Platform:      darwin
+[debug] [2022-04-26T01:50:09.817Z] Node Version:  v16.13.2
+[debug] [2022-04-26T01:50:09.818Z] Time:          Tue Apr 26 2022 07:20:09 GMT+0530 (India Standard Time)
+[debug] [2022-04-26T01:50:09.818Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-26T01:50:09.864Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-26T01:50:09.865Z] > authorizing via signed-in user (prithkami@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project shopilee. This may result in unexpected behavior. 
+[debug] [2022-04-26T01:50:09.878Z] [hub] writing locator at /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/hub-shopilee.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] ✔  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-04-26T01:50:09.980Z] defaultcredentials: writing to file /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json
+[debug] [2022-04-26T01:50:09.982Z] Setting GAC to /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json"}}
+[debug] [2022-04-26T01:50:09.984Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig [none]
+[debug] [2022-04-26T01:50:10.751Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig 200
+[debug] [2022-04-26T01:50:10.751Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig {"projectId":"shopilee","storageBucket":"shopilee.appspot.com"}
+[debug] [2022-04-26T01:50:10.786Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites 
+[debug] [2022-04-26T01:50:12.655Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites 200
+[debug] [2022-04-26T01:50:12.655Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites {"sites":[{"name":"projects/695931342932/sites/shopilee","defaultUrl":"https://shopilee.web.app","appId":"1:695931342932:web:b6923ef3feb281ac785dc1","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-26T01:50:12.656Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config [none]
+[debug] [2022-04-26T01:50:14.188Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config 200
+[debug] [2022-04-26T01:50:14.188Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config {"projectId":"shopilee","appId":"1:695931342932:web:b6923ef3feb281ac785dc1","storageBucket":"shopilee.appspot.com","apiKey":"AIzaSyDF_jc_UypTdBMC28AwLQjT36LAeF_ZRFA","authDomain":"shopilee.firebaseapp.com","messagingSenderId":"695931342932","measurementId":"G-HQ447TZ8ZG"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] ⚠  ui: Emulator UI unable to start on port 4000, starting on 4005 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4005 instead."}}
+[debug] [2022-04-26T01:50:14.553Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-04-26T01:50:14.553Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-04-26T01:50:14.553Z] Starting Emulator UI with command {"binary":"node","args":["/Users/prithvichoudhary/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/prithvichoudhary/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-04-26T01:50:14.628Z] Web / API server started at localhost:4005
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4005\n"}}
+[info] i  functions: Watching "/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\" for Cloud Functions..."}}
+[debug] [2022-04-26T01:50:14.820Z] Validating nodejs source
+[debug] [2022-04-26T01:50:15.864Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-26T01:50:15.865Z] Building nodejs source
+[debug] [2022-04-26T01:50:15.865Z] Analyzing nodejs backend spec
+[info] ✔  functions[us-central1-api]: http function initialized (http://localhost:5001/shopilee/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/shopilee/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4005                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4005/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-04-26T02:51:32.660Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-26T02:51:33.682Z] Validating nodejs source
+[debug] [2022-04-26T02:51:35.943Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-26T02:51:35.944Z] Building nodejs source
+[debug] [2022-04-26T02:51:35.944Z] Analyzing nodejs backend spec
