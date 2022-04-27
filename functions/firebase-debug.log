@@ -1,41 +1,40 @@
-[debug] [2022-04-26T01:50:09.816Z] ----------------------------------------------------------------------
-[debug] [2022-04-26T01:50:09.817Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
-[debug] [2022-04-26T01:50:09.817Z] CLI Version:   10.7.1
-[debug] [2022-04-26T01:50:09.817Z] Platform:      darwin
-[debug] [2022-04-26T01:50:09.817Z] Node Version:  v16.13.2
-[debug] [2022-04-26T01:50:09.818Z] Time:          Tue Apr 26 2022 07:20:09 GMT+0530 (India Standard Time)
-[debug] [2022-04-26T01:50:09.818Z] ----------------------------------------------------------------------
+[debug] [2022-04-27T00:07:07.277Z] ----------------------------------------------------------------------
+[debug] [2022-04-27T00:07:07.278Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-04-27T00:07:07.278Z] CLI Version:   10.7.1
+[debug] [2022-04-27T00:07:07.278Z] Platform:      darwin
+[debug] [2022-04-27T00:07:07.278Z] Node Version:  v16.13.2
+[debug] [2022-04-27T00:07:07.279Z] Time:          Wed Apr 27 2022 05:37:07 GMT+0530 (India Standard Time)
+[debug] [2022-04-27T00:07:07.279Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-04-26T01:50:09.864Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-04-26T01:50:09.865Z] > authorizing via signed-in user (prithkami@gmail.com)
+[debug] [2022-04-27T00:07:07.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-27T00:07:07.321Z] > authorizing via signed-in user (prithkami@gmail.com)
 [info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
-[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project shopilee. This may result in unexpected behavior. 
-[debug] [2022-04-26T01:50:09.878Z] [hub] writing locator at /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/hub-shopilee.json
+[debug] [2022-04-27T00:07:07.335Z] [hub] writing locator at /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/hub-shopilee.json
 [warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
 [info] ✔  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
-[debug] [2022-04-26T01:50:09.980Z] defaultcredentials: writing to file /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json
-[debug] [2022-04-26T01:50:09.982Z] Setting GAC to /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json"}}
-[debug] [2022-04-26T01:50:09.984Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig [none]
-[debug] [2022-04-26T01:50:10.751Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig 200
-[debug] [2022-04-26T01:50:10.751Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig {"projectId":"shopilee","storageBucket":"shopilee.appspot.com"}
-[debug] [2022-04-26T01:50:10.786Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites 
-[debug] [2022-04-26T01:50:12.655Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites 200
-[debug] [2022-04-26T01:50:12.655Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites {"sites":[{"name":"projects/695931342932/sites/shopilee","defaultUrl":"https://shopilee.web.app","appId":"1:695931342932:web:b6923ef3feb281ac785dc1","type":"DEFAULT_SITE"}]}
-[debug] [2022-04-26T01:50:12.656Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config [none]
-[debug] [2022-04-26T01:50:14.188Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config 200
-[debug] [2022-04-26T01:50:14.188Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config {"projectId":"shopilee","appId":"1:695931342932:web:b6923ef3feb281ac785dc1","storageBucket":"shopilee.appspot.com","apiKey":"AIzaSyDF_jc_UypTdBMC28AwLQjT36LAeF_ZRFA","authDomain":"shopilee.firebaseapp.com","messagingSenderId":"695931342932","measurementId":"G-HQ447TZ8ZG"}
+[debug] [2022-04-27T00:07:07.345Z] defaultcredentials: writing to file /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json
+[debug] [2022-04-27T00:07:07.346Z] Setting GAC to /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/prithvichoudhary/.config/firebase/prithkami_gmail_com_application_default_credentials.json"}}
+[debug] [2022-04-27T00:07:07.347Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig [none]
+[debug] [2022-04-27T00:07:07.964Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig 200
+[debug] [2022-04-27T00:07:07.965Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/adminSdkConfig {"projectId":"shopilee","storageBucket":"shopilee.appspot.com"}
+[debug] [2022-04-27T00:07:07.989Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites 
+[debug] [2022-04-27T00:07:09.868Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites 200
+[debug] [2022-04-27T00:07:09.869Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shopilee/sites {"sites":[{"name":"projects/695931342932/sites/shopilee","defaultUrl":"https://shopilee.web.app","appId":"1:695931342932:web:b6923ef3feb281ac785dc1","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-27T00:07:09.869Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config [none]
+[debug] [2022-04-27T00:07:11.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config 200
+[debug] [2022-04-27T00:07:11.735Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopilee/webApps/1:695931342932:web:b6923ef3feb281ac785dc1/config {"projectId":"shopilee","appId":"1:695931342932:web:b6923ef3feb281ac785dc1","storageBucket":"shopilee.appspot.com","apiKey":"AIzaSyDF_jc_UypTdBMC28AwLQjT36LAeF_ZRFA","authDomain":"shopilee.firebaseapp.com","messagingSenderId":"695931342932","measurementId":"G-HQ447TZ8ZG"}
 [info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
 [info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
-[warn] ⚠  ui: Emulator UI unable to start on port 4000, starting on 4005 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4005 instead."}}
-[debug] [2022-04-26T01:50:14.553Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2022-04-26T01:50:14.553Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2022-04-26T01:50:14.553Z] Starting Emulator UI with command {"binary":"node","args":["/Users/prithvichoudhary/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/prithvichoudhary/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[warn] ⚠  ui: Emulator UI unable to start on port 4000, starting on 4009 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4009 instead."}}
+[debug] [2022-04-27T00:07:11.838Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-04-27T00:07:11.838Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-04-27T00:07:11.838Z] Starting Emulator UI with command {"binary":"node","args":["/Users/prithvichoudhary/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/prithvichoudhary/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2022-04-26T01:50:14.628Z] Web / API server started at localhost:4005
- {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4005\n"}}
+[debug] [2022-04-27T00:07:11.899Z] Web / API server started at localhost:4009
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4009\n"}}
 [info] i  functions: Watching "/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\" for Cloud Functions..."}}
-[debug] [2022-04-26T01:50:14.820Z] Validating nodejs source
-[debug] [2022-04-26T01:50:15.864Z] > [functions] package.json contents: {
+[debug] [2022-04-27T00:07:12.107Z] Validating nodejs source
+[debug] [2022-04-27T00:07:12.850Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -63,19 +62,19 @@
   },
   "private": true
 }
-[debug] [2022-04-26T01:50:15.865Z] Building nodejs source
-[debug] [2022-04-26T01:50:15.865Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:07:12.850Z] Building nodejs source
+[debug] [2022-04-27T00:07:12.851Z] Analyzing nodejs backend spec
 [info] ✔  functions[us-central1-api]: http function initialized (http://localhost:5001/shopilee/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/shopilee/us-central1/api)."}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
-│ i  View Emulator UI at http://localhost:4005                │
+│ i  View Emulator UI at http://localhost:4009                │
 └─────────────────────────────────────────────────────────────┘
 
 ┌───────────┬────────────────┬─────────────────────────────────┐
 │ Emulator  │ Host:Port      │ View in Emulator UI             │
 ├───────────┼────────────────┼─────────────────────────────────┤
-│ Functions │ localhost:5001 │ http://localhost:4005/functions │
+│ Functions │ localhost:5001 │ http://localhost:4009/functions │
 ├───────────┼────────────────┼─────────────────────────────────┤
 │ Hosting   │ localhost:5000 │ n/a                             │
 └───────────┴────────────────┴─────────────────────────────────┘
@@ -84,9 +83,212 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2022-04-26T02:51:32.660Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
-[debug] [2022-04-26T02:51:33.682Z] Validating nodejs source
-[debug] [2022-04-26T02:51:35.943Z] > [functions] package.json contents: {
+[debug] [2022-04-27T00:07:18.283Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T00:07:18.284Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T00:07:18.284Z] Accepted request POST /shopilee/us-central1/api/payments/create?total=449700 --> us-central1-api
+[debug] [2022-04-27T00:07:18.294Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T00:07:18.306Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T00:07:18.306Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T00:07:18.307Z] [worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97673.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97673.sock"}}
+[debug] [2022-04-27T00:07:18.307Z] [worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: BUSY"}}
+[debug] [2022-04-27T00:07:18.871Z] [runtime-status] [97673] Functions runtime initialized. {"cwd":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions","node_version":"16.13.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Functions runtime initialized. {\"cwd\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\",\"node_version\":\"16.13.2\"}"}}
+[debug] [2022-04-27T00:07:18.871Z] [runtime-status] [97673] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T00:07:18.872Z] [runtime-status] [97673] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:18.873Z] [runtime-status] [97673] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:18.873Z] [runtime-status] [97673] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T00:07:18.873Z] [runtime-status] [97673] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:18.913Z] [runtime-status] [97673] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T00:07:18.913Z] [runtime-status] [97673] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:07:18.913Z] [runtime-status] [97673] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:18.913Z] [runtime-status] [97673] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:18.913Z] [runtime-status] [97673] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:18.913Z] [runtime-status] [97673] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:07:18.973Z] [runtime-status] [97673] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T00:07:18.973Z] [runtime-status] [97673] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Running api in signature http"}}
+[debug] [2022-04-27T00:07:18.974Z] [runtime-status] [97673] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97673.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97673.sock"}}
+[debug] [2022-04-27T00:07:18.976Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T00:07:18.977Z] [functions] Got req.url=/shopilee/us-central1/api/payments/create?total=449700, mapping to path=/payments/create?total=449700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shopilee/us-central1/api/payments/create?total=449700, mapping to path=/payments/create?total=449700"}}
+[debug] [2022-04-27T00:07:18.979Z] [runtime-status] [97673] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Ephemeral server handling POST request"}}
+[info] >  Payment request Recived!!for this amount >>>> undefined {"user":"Payment request Recived!!for this amount >>>> undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Recived!!for this amount >>>> undefined"}}
+[debug] [2022-04-27T00:07:18.985Z] [runtime-status] [97673] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97673] Ephemeral server survived."}}
+[info] >  /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40 {"user":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40"}}
+[info] >          return new StripeInvalidRequestError(rawStripeError); {"user":"        return new StripeInvalidRequestError(rawStripeError);","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m         return new StripeInvalidRequestError(rawStripeError);"}}
+[info] >                 ^ {"user":"               ^","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m                ^"}}
+[info] >   {"user":"","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m "}}
+[info] >  StripeInvalidRequestError: Missing required param: amount. {"user":"StripeInvalidRequestError: Missing required param: amount.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m StripeInvalidRequestError: Missing required param: amount."}}
+[info] >      at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16) {"user":"    at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)"}}
+[info] >      at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35) {"user":"    at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)"}}
+[info] >      at processTicksAndRejections (node:internal/process/task_queues:96:5) { {"user":"    at processTicksAndRejections (node:internal/process/task_queues:96:5) {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (node:internal/process/task_queues:96:5) {"}}
+[info] >    type: 'StripeInvalidRequestError', {"user":"  type: 'StripeInvalidRequestError',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   type: 'StripeInvalidRequestError',"}}
+[info] >    raw: { {"user":"  raw: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   raw: {"}}
+[info] >      code: 'parameter_missing', {"user":"    code: 'parameter_missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     code: 'parameter_missing',"}}
+[info] >      doc_url: 'https://stripe.com/docs/error-codes/parameter-missing', {"user":"    doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',"}}
+[info] >      message: 'Missing required param: amount.', {"user":"    message: 'Missing required param: amount.',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     message: 'Missing required param: amount.',"}}
+[info] >      param: 'amount', {"user":"    param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     param: 'amount',"}}
+[info] >      type: 'invalid_request_error', {"user":"    type: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     type: 'invalid_request_error',"}}
+[info] >      headers: { {"user":"    headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     headers: {"}}
+[info] >        server: 'nginx', {"user":"      server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       server: 'nginx',"}}
+[info] >        date: 'Wed, 27 Apr 2022 00:07:19 GMT', {"user":"      date: 'Wed, 27 Apr 2022 00:07:19 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       date: 'Wed, 27 Apr 2022 00:07:19 GMT',"}}
+[info] >        'content-type': 'application/json', {"user":"      'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-type': 'application/json',"}}
+[info] >        'content-length': '235', {"user":"      'content-length': '235',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-length': '235',"}}
+[info] >        connection: 'keep-alive', {"user":"      connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       connection: 'keep-alive',"}}
+[info] >        'access-control-allow-credentials': 'true', {"user":"      'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-credentials': 'true',"}}
+[info] >        'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >        'access-control-allow-origin': '*', {"user":"      'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-origin': '*',"}}
+[info] >        'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >        'access-control-max-age': '300', {"user":"      'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-max-age': '300',"}}
+[info] >        'cache-control': 'no-cache, no-store', {"user":"      'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'cache-control': 'no-cache, no-store',"}}
+[info] >        'idempotency-key': '3afad8be-377d-4b8f-afe7-99a2b91c22d9', {"user":"      'idempotency-key': '3afad8be-377d-4b8f-afe7-99a2b91c22d9',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'idempotency-key': '3afad8be-377d-4b8f-afe7-99a2b91c22d9',"}}
+[info] >        'original-request': 'req_FqI0cp0hXRoXXu', {"user":"      'original-request': 'req_FqI0cp0hXRoXXu',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'original-request': 'req_FqI0cp0hXRoXXu',"}}
+[info] >        'request-id': 'req_FqI0cp0hXRoXXu', {"user":"      'request-id': 'req_FqI0cp0hXRoXXu',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'request-id': 'req_FqI0cp0hXRoXXu',"}}
+[info] >        'stripe-version': '2020-08-27', {"user":"      'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'stripe-version': '2020-08-27',"}}
+[info] >        'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >      }, {"user":"    },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     },"}}
+[info] >      statusCode: 400, {"user":"    statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     statusCode: 400,"}}
+[info] >      requestId: 'req_FqI0cp0hXRoXXu' {"user":"    requestId: 'req_FqI0cp0hXRoXXu'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     requestId: 'req_FqI0cp0hXRoXXu'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    rawType: 'invalid_request_error', {"user":"  rawType: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   rawType: 'invalid_request_error',"}}
+[info] >    code: 'parameter_missing', {"user":"  code: 'parameter_missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   code: 'parameter_missing',"}}
+[info] >    doc_url: 'https://stripe.com/docs/error-codes/parameter-missing', {"user":"  doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',"}}
+[info] >    param: 'amount', {"user":"  param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   param: 'amount',"}}
+[info] >    detail: undefined, {"user":"  detail: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   detail: undefined,"}}
+[info] >    headers: { {"user":"  headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   headers: {"}}
+[info] >      server: 'nginx', {"user":"    server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     server: 'nginx',"}}
+[info] >      date: 'Wed, 27 Apr 2022 00:07:19 GMT', {"user":"    date: 'Wed, 27 Apr 2022 00:07:19 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     date: 'Wed, 27 Apr 2022 00:07:19 GMT',"}}
+[info] >      'content-type': 'application/json', {"user":"    'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-type': 'application/json',"}}
+[info] >      'content-length': '235', {"user":"    'content-length': '235',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-length': '235',"}}
+[info] >      connection: 'keep-alive', {"user":"    connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     connection: 'keep-alive',"}}
+[info] >      'access-control-allow-credentials': 'true', {"user":"    'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-credentials': 'true',"}}
+[info] >      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"    'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >      'access-control-allow-origin': '*', {"user":"    'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-origin': '*',"}}
+[info] >      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"    'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >      'access-control-max-age': '300', {"user":"    'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-max-age': '300',"}}
+[info] >      'cache-control': 'no-cache, no-store', {"user":"    'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'cache-control': 'no-cache, no-store',"}}
+[info] >      'idempotency-key': '3afad8be-377d-4b8f-afe7-99a2b91c22d9', {"user":"    'idempotency-key': '3afad8be-377d-4b8f-afe7-99a2b91c22d9',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'idempotency-key': '3afad8be-377d-4b8f-afe7-99a2b91c22d9',"}}
+[info] >      'original-request': 'req_FqI0cp0hXRoXXu', {"user":"    'original-request': 'req_FqI0cp0hXRoXXu',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'original-request': 'req_FqI0cp0hXRoXXu',"}}
+[info] >      'request-id': 'req_FqI0cp0hXRoXXu', {"user":"    'request-id': 'req_FqI0cp0hXRoXXu',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'request-id': 'req_FqI0cp0hXRoXXu',"}}
+[info] >      'stripe-version': '2020-08-27', {"user":"    'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'stripe-version': '2020-08-27',"}}
+[info] >      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"    'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    requestId: 'req_FqI0cp0hXRoXXu', {"user":"  requestId: 'req_FqI0cp0hXRoXXu',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   requestId: 'req_FqI0cp0hXRoXXu',"}}
+[info] >    statusCode: 400, {"user":"  statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   statusCode: 400,"}}
+[info] >    charge: undefined, {"user":"  charge: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   charge: undefined,"}}
+[info] >    decline_code: undefined, {"user":"  decline_code: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   decline_code: undefined,"}}
+[info] >    payment_intent: undefined, {"user":"  payment_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_intent: undefined,"}}
+[info] >    payment_method: undefined, {"user":"  payment_method: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method: undefined,"}}
+[info] >    payment_method_type: undefined, {"user":"  payment_method_type: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method_type: undefined,"}}
+[info] >    setup_intent: undefined, {"user":"  setup_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   setup_intent: undefined,"}}
+[info] >    source: undefined {"user":"  source: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   source: undefined"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[debug] [2022-04-27T00:07:19.542Z] [worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: exited"}}
+[debug] [2022-04-27T00:07:19.543Z] [worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4d7b9610-bbef-451a-9d65-9a7d67486beb]: FINISHED"}}
+[debug] [2022-04-27T00:07:19.543Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T00:07:29.374Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T00:07:29.374Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T00:07:29.374Z] Accepted request POST /shopilee/us-central1/api/payments/create?total=299800 --> us-central1-api
+[debug] [2022-04-27T00:07:29.374Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-04-27T00:07:29.381Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T00:07:29.382Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T00:07:29.382Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T00:07:29.382Z] [worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97680.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97680.sock"}}
+[debug] [2022-04-27T00:07:29.382Z] [worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: BUSY"}}
+[debug] [2022-04-27T00:07:29.965Z] [runtime-status] [97680] Functions runtime initialized. {"cwd":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions","node_version":"16.13.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Functions runtime initialized. {\"cwd\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\",\"node_version\":\"16.13.2\"}"}}
+[debug] [2022-04-27T00:07:29.965Z] [runtime-status] [97680] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T00:07:29.966Z] [runtime-status] [97680] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:29.967Z] [runtime-status] [97680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:29.967Z] [runtime-status] [97680] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T00:07:29.967Z] [runtime-status] [97680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:30.001Z] [runtime-status] [97680] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T00:07:30.001Z] [runtime-status] [97680] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:07:30.001Z] [runtime-status] [97680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:30.002Z] [runtime-status] [97680] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:30.002Z] [runtime-status] [97680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:07:30.002Z] [runtime-status] [97680] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:07:30.055Z] [runtime-status] [97680] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T00:07:30.058Z] [runtime-status] [97680] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Running api in signature http"}}
+[debug] [2022-04-27T00:07:30.058Z] [runtime-status] [97680] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97680.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97680.sock"}}
+[debug] [2022-04-27T00:07:30.059Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T00:07:30.059Z] [functions] Got req.url=/shopilee/us-central1/api/payments/create?total=299800, mapping to path=/payments/create?total=299800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shopilee/us-central1/api/payments/create?total=299800, mapping to path=/payments/create?total=299800"}}
+[debug] [2022-04-27T00:07:30.061Z] [runtime-status] [97680] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Ephemeral server handling POST request"}}
+[info] >  Payment request Recived!!for this amount >>>> undefined {"user":"Payment request Recived!!for this amount >>>> undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Recived!!for this amount >>>> undefined"}}
+[debug] [2022-04-27T00:07:30.068Z] [runtime-status] [97680] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97680] Ephemeral server survived."}}
+[info] >  /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40 {"user":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40"}}
+[info] >          return new StripeInvalidRequestError(rawStripeError); {"user":"        return new StripeInvalidRequestError(rawStripeError);","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m         return new StripeInvalidRequestError(rawStripeError);"}}
+[info] >                 ^ {"user":"               ^","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m                ^"}}
+[info] >   {"user":"","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m "}}
+[info] >  StripeInvalidRequestError: Missing required param: amount. {"user":"StripeInvalidRequestError: Missing required param: amount.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m StripeInvalidRequestError: Missing required param: amount."}}
+[info] >      at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16) {"user":"    at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)"}}
+[info] >      at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35) {"user":"    at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)"}}
+[info] >      at processTicksAndRejections (node:internal/process/task_queues:96:5) { {"user":"    at processTicksAndRejections (node:internal/process/task_queues:96:5) {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (node:internal/process/task_queues:96:5) {"}}
+[info] >    type: 'StripeInvalidRequestError', {"user":"  type: 'StripeInvalidRequestError',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   type: 'StripeInvalidRequestError',"}}
+[info] >    raw: { {"user":"  raw: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   raw: {"}}
+[info] >      code: 'parameter_missing', {"user":"    code: 'parameter_missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     code: 'parameter_missing',"}}
+[info] >      doc_url: 'https://stripe.com/docs/error-codes/parameter-missing', {"user":"    doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',"}}
+[info] >      message: 'Missing required param: amount.', {"user":"    message: 'Missing required param: amount.',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     message: 'Missing required param: amount.',"}}
+[info] >      param: 'amount', {"user":"    param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     param: 'amount',"}}
+[info] >      type: 'invalid_request_error', {"user":"    type: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     type: 'invalid_request_error',"}}
+[info] >      headers: { {"user":"    headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     headers: {"}}
+[info] >        server: 'nginx', {"user":"      server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       server: 'nginx',"}}
+[info] >        date: 'Wed, 27 Apr 2022 00:07:30 GMT', {"user":"      date: 'Wed, 27 Apr 2022 00:07:30 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       date: 'Wed, 27 Apr 2022 00:07:30 GMT',"}}
+[info] >        'content-type': 'application/json', {"user":"      'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-type': 'application/json',"}}
+[info] >        'content-length': '235', {"user":"      'content-length': '235',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-length': '235',"}}
+[info] >        connection: 'keep-alive', {"user":"      connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       connection: 'keep-alive',"}}
+[info] >        'access-control-allow-credentials': 'true', {"user":"      'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-credentials': 'true',"}}
+[info] >        'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >        'access-control-allow-origin': '*', {"user":"      'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-origin': '*',"}}
+[info] >        'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >        'access-control-max-age': '300', {"user":"      'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-max-age': '300',"}}
+[info] >        'cache-control': 'no-cache, no-store', {"user":"      'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'cache-control': 'no-cache, no-store',"}}
+[info] >        'idempotency-key': 'dc2675c0-2153-4183-a6e2-b76ea4d7b901', {"user":"      'idempotency-key': 'dc2675c0-2153-4183-a6e2-b76ea4d7b901',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'idempotency-key': 'dc2675c0-2153-4183-a6e2-b76ea4d7b901',"}}
+[info] >        'original-request': 'req_BYkre4UMojMpAZ', {"user":"      'original-request': 'req_BYkre4UMojMpAZ',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'original-request': 'req_BYkre4UMojMpAZ',"}}
+[info] >        'request-id': 'req_BYkre4UMojMpAZ', {"user":"      'request-id': 'req_BYkre4UMojMpAZ',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'request-id': 'req_BYkre4UMojMpAZ',"}}
+[info] >        'stripe-version': '2020-08-27', {"user":"      'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'stripe-version': '2020-08-27',"}}
+[info] >        'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >      }, {"user":"    },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     },"}}
+[info] >      statusCode: 400, {"user":"    statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     statusCode: 400,"}}
+[info] >      requestId: 'req_BYkre4UMojMpAZ' {"user":"    requestId: 'req_BYkre4UMojMpAZ'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     requestId: 'req_BYkre4UMojMpAZ'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    rawType: 'invalid_request_error', {"user":"  rawType: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   rawType: 'invalid_request_error',"}}
+[info] >    code: 'parameter_missing', {"user":"  code: 'parameter_missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   code: 'parameter_missing',"}}
+[info] >    doc_url: 'https://stripe.com/docs/error-codes/parameter-missing', {"user":"  doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',"}}
+[info] >    param: 'amount', {"user":"  param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   param: 'amount',"}}
+[info] >    detail: undefined, {"user":"  detail: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   detail: undefined,"}}
+[info] >    headers: { {"user":"  headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   headers: {"}}
+[info] >      server: 'nginx', {"user":"    server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     server: 'nginx',"}}
+[info] >      date: 'Wed, 27 Apr 2022 00:07:30 GMT', {"user":"    date: 'Wed, 27 Apr 2022 00:07:30 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     date: 'Wed, 27 Apr 2022 00:07:30 GMT',"}}
+[info] >      'content-type': 'application/json', {"user":"    'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-type': 'application/json',"}}
+[info] >      'content-length': '235', {"user":"    'content-length': '235',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-length': '235',"}}
+[info] >      connection: 'keep-alive', {"user":"    connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     connection: 'keep-alive',"}}
+[info] >      'access-control-allow-credentials': 'true', {"user":"    'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-credentials': 'true',"}}
+[info] >      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"    'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >      'access-control-allow-origin': '*', {"user":"    'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-origin': '*',"}}
+[info] >      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"    'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >      'access-control-max-age': '300', {"user":"    'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-max-age': '300',"}}
+[info] >      'cache-control': 'no-cache, no-store', {"user":"    'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'cache-control': 'no-cache, no-store',"}}
+[info] >      'idempotency-key': 'dc2675c0-2153-4183-a6e2-b76ea4d7b901', {"user":"    'idempotency-key': 'dc2675c0-2153-4183-a6e2-b76ea4d7b901',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'idempotency-key': 'dc2675c0-2153-4183-a6e2-b76ea4d7b901',"}}
+[info] >      'original-request': 'req_BYkre4UMojMpAZ', {"user":"    'original-request': 'req_BYkre4UMojMpAZ',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'original-request': 'req_BYkre4UMojMpAZ',"}}
+[info] >      'request-id': 'req_BYkre4UMojMpAZ', {"user":"    'request-id': 'req_BYkre4UMojMpAZ',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'request-id': 'req_BYkre4UMojMpAZ',"}}
+[info] >      'stripe-version': '2020-08-27', {"user":"    'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'stripe-version': '2020-08-27',"}}
+[info] >      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"    'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    requestId: 'req_BYkre4UMojMpAZ', {"user":"  requestId: 'req_BYkre4UMojMpAZ',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   requestId: 'req_BYkre4UMojMpAZ',"}}
+[info] >    statusCode: 400, {"user":"  statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   statusCode: 400,"}}
+[info] >    charge: undefined, {"user":"  charge: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   charge: undefined,"}}
+[info] >    decline_code: undefined, {"user":"  decline_code: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   decline_code: undefined,"}}
+[info] >    payment_intent: undefined, {"user":"  payment_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_intent: undefined,"}}
+[info] >    payment_method: undefined, {"user":"  payment_method: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method: undefined,"}}
+[info] >    payment_method_type: undefined, {"user":"  payment_method_type: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method_type: undefined,"}}
+[info] >    setup_intent: undefined, {"user":"  setup_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   setup_intent: undefined,"}}
+[info] >    source: undefined {"user":"  source: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   source: undefined"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[debug] [2022-04-27T00:07:30.591Z] [worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: exited"}}
+[debug] [2022-04-27T00:07:30.591Z] [worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-944d8daa-4149-40ca-9d4d-724d35bc4193]: FINISHED"}}
+[debug] [2022-04-27T00:07:30.592Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T00:07:57.670Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:07:58.685Z] Validating nodejs source
+[debug] [2022-04-27T00:07:59.444Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -114,5 +316,702 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   },
   "private": true
 }
-[debug] [2022-04-26T02:51:35.944Z] Building nodejs source
-[debug] [2022-04-26T02:51:35.944Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:07:59.445Z] Building nodejs source
+[debug] [2022-04-27T00:07:59.445Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:08:00.697Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T00:08:00.697Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T00:08:00.697Z] Accepted request POST /shopilee/us-central1/api/payments/create?total=149900 --> us-central1-api
+[debug] [2022-04-27T00:08:00.697Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-04-27T00:08:00.702Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T00:08:00.703Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T00:08:00.703Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T00:08:00.703Z] [worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97693.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97693.sock"}}
+[debug] [2022-04-27T00:08:00.704Z] [worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: BUSY"}}
+[debug] [2022-04-27T00:08:01.354Z] [runtime-status] [97693] Functions runtime initialized. {"cwd":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions","node_version":"16.13.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Functions runtime initialized. {\"cwd\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\",\"node_version\":\"16.13.2\"}"}}
+[debug] [2022-04-27T00:08:01.355Z] [runtime-status] [97693] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T00:08:01.355Z] [runtime-status] [97693] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:08:01.355Z] [runtime-status] [97693] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:08:01.355Z] [runtime-status] [97693] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T00:08:01.356Z] [runtime-status] [97693] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:08:01.377Z] [runtime-status] [97693] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T00:08:01.377Z] [runtime-status] [97693] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:08:01.377Z] [runtime-status] [97693] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:08:01.377Z] [runtime-status] [97693] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:08:01.377Z] [runtime-status] [97693] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:08:01.377Z] [runtime-status] [97693] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:08:01.410Z] [runtime-status] [97693] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T00:08:01.410Z] [runtime-status] [97693] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Running api in signature http"}}
+[debug] [2022-04-27T00:08:01.411Z] [runtime-status] [97693] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97693.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97693.sock"}}
+[debug] [2022-04-27T00:08:01.429Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T00:08:01.430Z] [functions] Got req.url=/shopilee/us-central1/api/payments/create?total=149900, mapping to path=/payments/create?total=149900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shopilee/us-central1/api/payments/create?total=149900, mapping to path=/payments/create?total=149900"}}
+[debug] [2022-04-27T00:08:01.432Z] [runtime-status] [97693] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Ephemeral server handling POST request"}}
+[info] >  Payment request Recived!!for this amount >>>> undefined {"user":"Payment request Recived!!for this amount >>>> undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Recived!!for this amount >>>> undefined"}}
+[debug] [2022-04-27T00:08:01.438Z] [runtime-status] [97693] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97693] Ephemeral server survived."}}
+[info] >  /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40 {"user":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40"}}
+[info] >          return new StripeInvalidRequestError(rawStripeError); {"user":"        return new StripeInvalidRequestError(rawStripeError);","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m         return new StripeInvalidRequestError(rawStripeError);"}}
+[info] >                 ^ {"user":"               ^","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m                ^"}}
+[info] >   {"user":"","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m "}}
+[info] >  StripeInvalidRequestError: Missing required param: amount. {"user":"StripeInvalidRequestError: Missing required param: amount.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m StripeInvalidRequestError: Missing required param: amount."}}
+[info] >      at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16) {"user":"    at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)"}}
+[info] >      at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35) {"user":"    at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)"}}
+[info] >      at processTicksAndRejections (node:internal/process/task_queues:96:5) { {"user":"    at processTicksAndRejections (node:internal/process/task_queues:96:5) {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (node:internal/process/task_queues:96:5) {"}}
+[info] >    type: 'StripeInvalidRequestError', {"user":"  type: 'StripeInvalidRequestError',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   type: 'StripeInvalidRequestError',"}}
+[info] >    raw: { {"user":"  raw: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   raw: {"}}
+[info] >      code: 'parameter_missing', {"user":"    code: 'parameter_missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     code: 'parameter_missing',"}}
+[info] >      doc_url: 'https://stripe.com/docs/error-codes/parameter-missing', {"user":"    doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',"}}
+[info] >      message: 'Missing required param: amount.', {"user":"    message: 'Missing required param: amount.',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     message: 'Missing required param: amount.',"}}
+[info] >      param: 'amount', {"user":"    param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     param: 'amount',"}}
+[info] >      type: 'invalid_request_error', {"user":"    type: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     type: 'invalid_request_error',"}}
+[info] >      headers: { {"user":"    headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     headers: {"}}
+[info] >        server: 'nginx', {"user":"      server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       server: 'nginx',"}}
+[info] >        date: 'Wed, 27 Apr 2022 00:08:01 GMT', {"user":"      date: 'Wed, 27 Apr 2022 00:08:01 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       date: 'Wed, 27 Apr 2022 00:08:01 GMT',"}}
+[info] >        'content-type': 'application/json', {"user":"      'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-type': 'application/json',"}}
+[info] >        'content-length': '235', {"user":"      'content-length': '235',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-length': '235',"}}
+[info] >        connection: 'keep-alive', {"user":"      connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       connection: 'keep-alive',"}}
+[info] >        'access-control-allow-credentials': 'true', {"user":"      'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-credentials': 'true',"}}
+[info] >        'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >        'access-control-allow-origin': '*', {"user":"      'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-origin': '*',"}}
+[info] >        'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >        'access-control-max-age': '300', {"user":"      'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-max-age': '300',"}}
+[info] >        'cache-control': 'no-cache, no-store', {"user":"      'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'cache-control': 'no-cache, no-store',"}}
+[info] >        'idempotency-key': '48d0f2bf-4364-4dd2-aeaa-3157c96cdb42', {"user":"      'idempotency-key': '48d0f2bf-4364-4dd2-aeaa-3157c96cdb42',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'idempotency-key': '48d0f2bf-4364-4dd2-aeaa-3157c96cdb42',"}}
+[info] >        'original-request': 'req_ZixQdd9QstXu67', {"user":"      'original-request': 'req_ZixQdd9QstXu67',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'original-request': 'req_ZixQdd9QstXu67',"}}
+[info] >        'request-id': 'req_ZixQdd9QstXu67', {"user":"      'request-id': 'req_ZixQdd9QstXu67',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'request-id': 'req_ZixQdd9QstXu67',"}}
+[info] >        'stripe-version': '2020-08-27', {"user":"      'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'stripe-version': '2020-08-27',"}}
+[info] >        'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >      }, {"user":"    },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     },"}}
+[info] >      statusCode: 400, {"user":"    statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     statusCode: 400,"}}
+[info] >      requestId: 'req_ZixQdd9QstXu67' {"user":"    requestId: 'req_ZixQdd9QstXu67'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     requestId: 'req_ZixQdd9QstXu67'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    rawType: 'invalid_request_error', {"user":"  rawType: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   rawType: 'invalid_request_error',"}}
+[info] >    code: 'parameter_missing', {"user":"  code: 'parameter_missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   code: 'parameter_missing',"}}
+[info] >    doc_url: 'https://stripe.com/docs/error-codes/parameter-missing', {"user":"  doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   doc_url: 'https://stripe.com/docs/error-codes/parameter-missing',"}}
+[info] >    param: 'amount', {"user":"  param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   param: 'amount',"}}
+[info] >    detail: undefined, {"user":"  detail: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   detail: undefined,"}}
+[info] >    headers: { {"user":"  headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   headers: {"}}
+[info] >      server: 'nginx', {"user":"    server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     server: 'nginx',"}}
+[info] >      date: 'Wed, 27 Apr 2022 00:08:01 GMT', {"user":"    date: 'Wed, 27 Apr 2022 00:08:01 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     date: 'Wed, 27 Apr 2022 00:08:01 GMT',"}}
+[info] >      'content-type': 'application/json', {"user":"    'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-type': 'application/json',"}}
+[info] >      'content-length': '235', {"user":"    'content-length': '235',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-length': '235',"}}
+[info] >      connection: 'keep-alive', {"user":"    connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     connection: 'keep-alive',"}}
+[info] >      'access-control-allow-credentials': 'true', {"user":"    'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-credentials': 'true',"}}
+[info] >      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"    'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >      'access-control-allow-origin': '*', {"user":"    'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-origin': '*',"}}
+[info] >      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"    'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >      'access-control-max-age': '300', {"user":"    'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-max-age': '300',"}}
+[info] >      'cache-control': 'no-cache, no-store', {"user":"    'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'cache-control': 'no-cache, no-store',"}}
+[info] >      'idempotency-key': '48d0f2bf-4364-4dd2-aeaa-3157c96cdb42', {"user":"    'idempotency-key': '48d0f2bf-4364-4dd2-aeaa-3157c96cdb42',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'idempotency-key': '48d0f2bf-4364-4dd2-aeaa-3157c96cdb42',"}}
+[info] >      'original-request': 'req_ZixQdd9QstXu67', {"user":"    'original-request': 'req_ZixQdd9QstXu67',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'original-request': 'req_ZixQdd9QstXu67',"}}
+[info] >      'request-id': 'req_ZixQdd9QstXu67', {"user":"    'request-id': 'req_ZixQdd9QstXu67',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'request-id': 'req_ZixQdd9QstXu67',"}}
+[info] >      'stripe-version': '2020-08-27', {"user":"    'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'stripe-version': '2020-08-27',"}}
+[info] >      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"    'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    requestId: 'req_ZixQdd9QstXu67', {"user":"  requestId: 'req_ZixQdd9QstXu67',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   requestId: 'req_ZixQdd9QstXu67',"}}
+[info] >    statusCode: 400, {"user":"  statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   statusCode: 400,"}}
+[info] >    charge: undefined, {"user":"  charge: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   charge: undefined,"}}
+[info] >    decline_code: undefined, {"user":"  decline_code: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   decline_code: undefined,"}}
+[info] >    payment_intent: undefined, {"user":"  payment_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_intent: undefined,"}}
+[info] >    payment_method: undefined, {"user":"  payment_method: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method: undefined,"}}
+[info] >    payment_method_type: undefined, {"user":"  payment_method_type: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method_type: undefined,"}}
+[info] >    setup_intent: undefined, {"user":"  setup_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   setup_intent: undefined,"}}
+[info] >    source: undefined {"user":"  source: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   source: undefined"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[debug] [2022-04-27T00:08:02.000Z] [worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: exited"}}
+[debug] [2022-04-27T00:08:02.000Z] [worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d8673c5a-aa61-4831-ad4b-cf1b893a6d85]: FINISHED"}}
+[debug] [2022-04-27T00:08:02.000Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T00:09:00.277Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:09:01.284Z] Validating nodejs source
+[debug] [2022-04-27T00:09:02.073Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:09:02.073Z] Building nodejs source
+[debug] [2022-04-27T00:09:02.073Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:09:08.560Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T00:09:08.560Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T00:09:08.560Z] Accepted request POST /shopilee/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-04-27T00:09:08.560Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-04-27T00:09:08.567Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T00:09:08.567Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T00:09:08.568Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T00:09:08.568Z] [worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97725.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97725.sock"}}
+[debug] [2022-04-27T00:09:08.568Z] [worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: BUSY"}}
+[debug] [2022-04-27T00:09:09.219Z] [runtime-status] [97725] Functions runtime initialized. {"cwd":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions","node_version":"16.13.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Functions runtime initialized. {\"cwd\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\",\"node_version\":\"16.13.2\"}"}}
+[debug] [2022-04-27T00:09:09.219Z] [runtime-status] [97725] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T00:09:09.220Z] [runtime-status] [97725] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:09:09.221Z] [runtime-status] [97725] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:09:09.221Z] [runtime-status] [97725] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T00:09:09.221Z] [runtime-status] [97725] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:09:09.254Z] [runtime-status] [97725] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T00:09:09.254Z] [runtime-status] [97725] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:09:09.254Z] [runtime-status] [97725] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:09:09.255Z] [runtime-status] [97725] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:09:09.255Z] [runtime-status] [97725] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:09:09.255Z] [runtime-status] [97725] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:09:09.309Z] [runtime-status] [97725] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T00:09:09.310Z] [runtime-status] [97725] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Running api in signature http"}}
+[debug] [2022-04-27T00:09:09.311Z] [runtime-status] [97725] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97725.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97725.sock"}}
+[debug] [2022-04-27T00:09:09.317Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T00:09:09.317Z] [functions] Got req.url=/shopilee/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shopilee/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-04-27T00:09:09.320Z] [runtime-status] [97725] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  0 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  0","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  0"}}
+[debug] [2022-04-27T00:09:09.326Z] [runtime-status] [97725] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97725] Ephemeral server survived."}}
+[info] >  /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40 {"user":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40"}}
+[info] >          return new StripeInvalidRequestError(rawStripeError); {"user":"        return new StripeInvalidRequestError(rawStripeError);","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m         return new StripeInvalidRequestError(rawStripeError);"}}
+[info] >                 ^ {"user":"               ^","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m                ^"}}
+[info] >   {"user":"","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m "}}
+[info] >  StripeInvalidRequestError: This value must be greater than or equal to 1. {"user":"StripeInvalidRequestError: This value must be greater than or equal to 1.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m StripeInvalidRequestError: This value must be greater than or equal to 1."}}
+[info] >      at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16) {"user":"    at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.generate (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/Error.js:40:16)"}}
+[info] >      at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35) {"user":"    at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at res.toJSON.then.StripeAPIError.message (/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/stripe/lib/StripeResource.js:220:35)"}}
+[info] >      at processTicksAndRejections (node:internal/process/task_queues:96:5) { {"user":"    at processTicksAndRejections (node:internal/process/task_queues:96:5) {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (node:internal/process/task_queues:96:5) {"}}
+[info] >    type: 'StripeInvalidRequestError', {"user":"  type: 'StripeInvalidRequestError',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   type: 'StripeInvalidRequestError',"}}
+[info] >    raw: { {"user":"  raw: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   raw: {"}}
+[info] >      code: 'parameter_invalid_integer', {"user":"    code: 'parameter_invalid_integer',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     code: 'parameter_invalid_integer',"}}
+[info] >      doc_url: 'https://stripe.com/docs/error-codes/parameter-invalid-integer', {"user":"    doc_url: 'https://stripe.com/docs/error-codes/parameter-invalid-integer',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     doc_url: 'https://stripe.com/docs/error-codes/parameter-invalid-integer',"}}
+[info] >      message: 'This value must be greater than or equal to 1.', {"user":"    message: 'This value must be greater than or equal to 1.',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     message: 'This value must be greater than or equal to 1.',"}}
+[info] >      param: 'amount', {"user":"    param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     param: 'amount',"}}
+[info] >      type: 'invalid_request_error', {"user":"    type: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     type: 'invalid_request_error',"}}
+[info] >      headers: { {"user":"    headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     headers: {"}}
+[info] >        server: 'nginx', {"user":"      server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       server: 'nginx',"}}
+[info] >        date: 'Wed, 27 Apr 2022 00:09:09 GMT', {"user":"      date: 'Wed, 27 Apr 2022 00:09:09 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       date: 'Wed, 27 Apr 2022 00:09:09 GMT',"}}
+[info] >        'content-type': 'application/json', {"user":"      'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-type': 'application/json',"}}
+[info] >        'content-length': '266', {"user":"      'content-length': '266',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'content-length': '266',"}}
+[info] >        connection: 'keep-alive', {"user":"      connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       connection: 'keep-alive',"}}
+[info] >        'access-control-allow-credentials': 'true', {"user":"      'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-credentials': 'true',"}}
+[info] >        'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >        'access-control-allow-origin': '*', {"user":"      'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-allow-origin': '*',"}}
+[info] >        'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >        'access-control-max-age': '300', {"user":"      'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'access-control-max-age': '300',"}}
+[info] >        'cache-control': 'no-cache, no-store', {"user":"      'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'cache-control': 'no-cache, no-store',"}}
+[info] >        'idempotency-key': '5546cb80-7aaa-4084-bcaa-80d0e86dc421', {"user":"      'idempotency-key': '5546cb80-7aaa-4084-bcaa-80d0e86dc421',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'idempotency-key': '5546cb80-7aaa-4084-bcaa-80d0e86dc421',"}}
+[info] >        'original-request': 'req_okQvS6xMZMsmXF', {"user":"      'original-request': 'req_okQvS6xMZMsmXF',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'original-request': 'req_okQvS6xMZMsmXF',"}}
+[info] >        'request-id': 'req_okQvS6xMZMsmXF', {"user":"      'request-id': 'req_okQvS6xMZMsmXF',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'request-id': 'req_okQvS6xMZMsmXF',"}}
+[info] >        'stripe-version': '2020-08-27', {"user":"      'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'stripe-version': '2020-08-27',"}}
+[info] >        'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >      }, {"user":"    },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     },"}}
+[info] >      statusCode: 400, {"user":"    statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     statusCode: 400,"}}
+[info] >      requestId: 'req_okQvS6xMZMsmXF' {"user":"    requestId: 'req_okQvS6xMZMsmXF'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     requestId: 'req_okQvS6xMZMsmXF'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    rawType: 'invalid_request_error', {"user":"  rawType: 'invalid_request_error',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   rawType: 'invalid_request_error',"}}
+[info] >    code: 'parameter_invalid_integer', {"user":"  code: 'parameter_invalid_integer',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   code: 'parameter_invalid_integer',"}}
+[info] >    doc_url: 'https://stripe.com/docs/error-codes/parameter-invalid-integer', {"user":"  doc_url: 'https://stripe.com/docs/error-codes/parameter-invalid-integer',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   doc_url: 'https://stripe.com/docs/error-codes/parameter-invalid-integer',"}}
+[info] >    param: 'amount', {"user":"  param: 'amount',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   param: 'amount',"}}
+[info] >    detail: undefined, {"user":"  detail: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   detail: undefined,"}}
+[info] >    headers: { {"user":"  headers: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   headers: {"}}
+[info] >      server: 'nginx', {"user":"    server: 'nginx',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     server: 'nginx',"}}
+[info] >      date: 'Wed, 27 Apr 2022 00:09:09 GMT', {"user":"    date: 'Wed, 27 Apr 2022 00:09:09 GMT',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     date: 'Wed, 27 Apr 2022 00:09:09 GMT',"}}
+[info] >      'content-type': 'application/json', {"user":"    'content-type': 'application/json',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-type': 'application/json',"}}
+[info] >      'content-length': '266', {"user":"    'content-length': '266',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'content-length': '266',"}}
+[info] >      connection: 'keep-alive', {"user":"    connection: 'keep-alive',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     connection: 'keep-alive',"}}
+[info] >      'access-control-allow-credentials': 'true', {"user":"    'access-control-allow-credentials': 'true',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-credentials': 'true',"}}
+[info] >      'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE', {"user":"    'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-methods': 'GET, POST, HEAD, OPTIONS, DELETE',"}}
+[info] >      'access-control-allow-origin': '*', {"user":"    'access-control-allow-origin': '*',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-allow-origin': '*',"}}
+[info] >      'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required', {"user":"    'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-expose-headers': 'Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required',"}}
+[info] >      'access-control-max-age': '300', {"user":"    'access-control-max-age': '300',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'access-control-max-age': '300',"}}
+[info] >      'cache-control': 'no-cache, no-store', {"user":"    'cache-control': 'no-cache, no-store',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'cache-control': 'no-cache, no-store',"}}
+[info] >      'idempotency-key': '5546cb80-7aaa-4084-bcaa-80d0e86dc421', {"user":"    'idempotency-key': '5546cb80-7aaa-4084-bcaa-80d0e86dc421',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'idempotency-key': '5546cb80-7aaa-4084-bcaa-80d0e86dc421',"}}
+[info] >      'original-request': 'req_okQvS6xMZMsmXF', {"user":"    'original-request': 'req_okQvS6xMZMsmXF',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'original-request': 'req_okQvS6xMZMsmXF',"}}
+[info] >      'request-id': 'req_okQvS6xMZMsmXF', {"user":"    'request-id': 'req_okQvS6xMZMsmXF',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'request-id': 'req_okQvS6xMZMsmXF',"}}
+[info] >      'stripe-version': '2020-08-27', {"user":"    'stripe-version': '2020-08-27',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'stripe-version': '2020-08-27',"}}
+[info] >      'strict-transport-security': 'max-age=31556926; includeSubDomains; preload' {"user":"    'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     'strict-transport-security': 'max-age=31556926; includeSubDomains; preload'"}}
+[info] >    }, {"user":"  },","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   },"}}
+[info] >    requestId: 'req_okQvS6xMZMsmXF', {"user":"  requestId: 'req_okQvS6xMZMsmXF',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   requestId: 'req_okQvS6xMZMsmXF',"}}
+[info] >    statusCode: 400, {"user":"  statusCode: 400,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   statusCode: 400,"}}
+[info] >    charge: undefined, {"user":"  charge: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   charge: undefined,"}}
+[info] >    decline_code: undefined, {"user":"  decline_code: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   decline_code: undefined,"}}
+[info] >    payment_intent: undefined, {"user":"  payment_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_intent: undefined,"}}
+[info] >    payment_method: undefined, {"user":"  payment_method: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method: undefined,"}}
+[info] >    payment_method_type: undefined, {"user":"  payment_method_type: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   payment_method_type: undefined,"}}
+[info] >    setup_intent: undefined, {"user":"  setup_intent: undefined,","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   setup_intent: undefined,"}}
+[info] >    source: undefined {"user":"  source: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   source: undefined"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[debug] [2022-04-27T00:09:09.903Z] [worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: exited"}}
+[debug] [2022-04-27T00:09:09.903Z] [worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-aff9d4a9-149c-4657-92a4-2056fcbb0caa]: FINISHED"}}
+[debug] [2022-04-27T00:09:09.904Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T00:10:13.919Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:10:14.923Z] Validating nodejs source
+[debug] [2022-04-27T00:10:15.734Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:10:15.734Z] Building nodejs source
+[debug] [2022-04-27T00:10:15.735Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:10:36.616Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T00:10:36.617Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T00:10:36.617Z] Accepted request POST /shopilee/us-central1/api/payments/create?total=2248500 --> us-central1-api
+[debug] [2022-04-27T00:10:36.617Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-04-27T00:10:36.626Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T00:10:36.626Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T00:10:36.627Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T00:10:36.630Z] [worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97754.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97754.sock"}}
+[debug] [2022-04-27T00:10:36.631Z] [worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: BUSY"}}
+[debug] [2022-04-27T00:10:37.373Z] [runtime-status] [97754] Functions runtime initialized. {"cwd":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions","node_version":"16.13.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Functions runtime initialized. {\"cwd\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\",\"node_version\":\"16.13.2\"}"}}
+[debug] [2022-04-27T00:10:37.374Z] [runtime-status] [97754] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T00:10:37.378Z] [runtime-status] [97754] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:10:37.378Z] [runtime-status] [97754] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:10:37.380Z] [runtime-status] [97754] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T00:10:37.380Z] [runtime-status] [97754] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:10:37.413Z] [runtime-status] [97754] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T00:10:37.413Z] [runtime-status] [97754] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:10:37.413Z] [runtime-status] [97754] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:10:37.413Z] [runtime-status] [97754] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:10:37.413Z] [runtime-status] [97754] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:10:37.413Z] [runtime-status] [97754] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:10:37.472Z] [runtime-status] [97754] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T00:10:37.472Z] [runtime-status] [97754] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Running api in signature http"}}
+[debug] [2022-04-27T00:10:37.473Z] [runtime-status] [97754] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97754.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97754.sock"}}
+[debug] [2022-04-27T00:10:37.479Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T00:10:37.479Z] [functions] Got req.url=/shopilee/us-central1/api/payments/create?total=2248500, mapping to path=/payments/create?total=2248500 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shopilee/us-central1/api/payments/create?total=2248500, mapping to path=/payments/create?total=2248500"}}
+[debug] [2022-04-27T00:10:37.482Z] [runtime-status] [97754] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  2248500 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  2248500","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  2248500"}}
+[debug] [2022-04-27T00:10:37.491Z] [runtime-status] [97754] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97754] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-27T00:10:38.359Z] [worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: IDLE"}}
+[debug] [2022-04-27T00:10:38.359Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T00:11:58.156Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:11:59.159Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-04-27T00:11:59.159Z] [worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: FINISHING"}}
+[debug] [2022-04-27T00:11:59.162Z] Validating nodejs source
+[debug] [2022-04-27T00:12:00.995Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:00.995Z] Building nodejs source
+[debug] [2022-04-27T00:12:00.995Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:01.000Z] [worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: exited"}}
+[debug] [2022-04-27T00:12:01.001Z] [worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-b1cb62ee-3714-44f3-981d-482e2ee3e7e7]: FINISHED"}}
+[debug] [2022-04-27T00:12:04.281Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:05.283Z] Validating nodejs source
+[debug] [2022-04-27T00:12:05.994Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:05.994Z] Building nodejs source
+[debug] [2022-04-27T00:12:05.995Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:06.323Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:07.326Z] Validating nodejs source
+[debug] [2022-04-27T00:12:08.007Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:08.007Z] Building nodejs source
+[debug] [2022-04-27T00:12:08.007Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:11.437Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:12.441Z] Validating nodejs source
+[debug] [2022-04-27T00:12:13.105Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:13.105Z] Building nodejs source
+[debug] [2022-04-27T00:12:13.105Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:14.977Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:15.077Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:16.080Z] Validating nodejs source
+[debug] [2022-04-27T00:12:16.709Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:16.709Z] Building nodejs source
+[debug] [2022-04-27T00:12:16.709Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:30.002Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:31.007Z] Validating nodejs source
+[debug] [2022-04-27T00:12:31.734Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:31.734Z] Building nodejs source
+[debug] [2022-04-27T00:12:31.734Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:34.508Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:35.513Z] Validating nodejs source
+[debug] [2022-04-27T00:12:36.304Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:36.304Z] Building nodejs source
+[debug] [2022-04-27T00:12:36.304Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:41.615Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:41.715Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:42.719Z] Validating nodejs source
+[debug] [2022-04-27T00:12:43.427Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:43.427Z] Building nodejs source
+[debug] [2022-04-27T00:12:43.427Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:12:47.530Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:47.631Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:12:48.633Z] Validating nodejs source
+[debug] [2022-04-27T00:12:49.263Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:12:49.263Z] Building nodejs source
+[debug] [2022-04-27T00:12:49.263Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:14:50.395Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:14:51.401Z] Validating nodejs source
+[debug] [2022-04-27T00:14:52.289Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:14:52.290Z] Building nodejs source
+[debug] [2022-04-27T00:14:52.290Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:15:10.836Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T00:15:10.837Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T00:15:10.837Z] Accepted request POST /shopilee/us-central1/api/payments/create?total=1798800 --> us-central1-api
+[debug] [2022-04-27T00:15:10.837Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-04-27T00:15:10.844Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T00:15:10.844Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T00:15:10.844Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T00:15:10.845Z] [worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97907.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: Assigning socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97907.sock"}}
+[debug] [2022-04-27T00:15:10.845Z] [worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: BUSY"}}
+[debug] [2022-04-27T00:15:11.573Z] [runtime-status] [97907] Functions runtime initialized. {"cwd":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions","node_version":"16.13.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Functions runtime initialized. {\"cwd\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions\",\"node_version\":\"16.13.2\"}"}}
+[debug] [2022-04-27T00:15:11.573Z] [runtime-status] [97907] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T00:15:11.575Z] [runtime-status] [97907] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:15:11.575Z] [runtime-status] [97907] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:15:11.575Z] [runtime-status] [97907] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T00:15:11.575Z] [runtime-status] [97907] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:15:11.611Z] [runtime-status] [97907] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T00:15:11.612Z] [runtime-status] [97907] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:15:11.612Z] [runtime-status] [97907] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:15:11.612Z] [runtime-status] [97907] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-27T00:15:11.612Z] [runtime-status] [97907] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-27T00:15:11.612Z] [runtime-status] [97907] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-27T00:15:11.667Z] [runtime-status] [97907] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T00:15:11.668Z] [runtime-status] [97907] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Running api in signature http"}}
+[debug] [2022-04-27T00:15:11.668Z] [runtime-status] [97907] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97907.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Attempting to listen to socketPath: /var/folders/_2/_0wbb_nx75scjvvz0jt1n5cc0000gn/T/fire_emu_97907.sock"}}
+[debug] [2022-04-27T00:15:11.674Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T00:15:11.674Z] [functions] Got req.url=/shopilee/us-central1/api/payments/create?total=1798800, mapping to path=/payments/create?total=1798800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shopilee/us-central1/api/payments/create?total=1798800, mapping to path=/payments/create?total=1798800"}}
+[debug] [2022-04-27T00:15:11.676Z] [runtime-status] [97907] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  1798800 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  1798800","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  1798800"}}
+[debug] [2022-04-27T00:15:11.685Z] [runtime-status] [97907] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [97907] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-27T00:15:12.576Z] [worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: IDLE"}}
+[debug] [2022-04-27T00:15:12.576Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T00:15:42.493Z] File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prithvichoudhary/Desktop/untitled folder/react/SHOPILEE/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-27T00:15:43.496Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-04-27T00:15:43.496Z] [worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: FINISHING"}}
+[debug] [2022-04-27T00:15:43.500Z] Validating nodejs source
+[debug] [2022-04-27T00:15:44.240Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T00:15:44.240Z] Building nodejs source
+[debug] [2022-04-27T00:15:44.240Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T00:15:44.244Z] [worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: exited"}}
+[debug] [2022-04-27T00:15:44.244Z] [worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-160f43f9-d6eb-46ab-909d-6e89334ec3bc]: FINISHED"}}

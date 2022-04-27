@@ -1,3 +1,4 @@
+payment . js
 import React, { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import CheckoutProduct from "./CheckoutProduct";
@@ -17,22 +18,19 @@ const Payment = () => {
   const [error, setError] = useState(null);
   const [disabled, setDisabled] = useState(true);
   const [clientSecret, setClientSecret] = useState(true);
-  useEffect(() => {
-    // generate the special stripe secret which allows us to charge a customer
-    const getClientSecret = async () => {
-        const response = await axios({
-            method: 'post',
-            // Stripe expects the total in a currencies subunits
-            url: `/payments/create?total=${getBasketTotal(basket) * 100}`
-        });
-        setClientSecret(response.data.clientSecret)
-    }
-
-    getClientSecret();
-}, [basket])
-
-console.log('secret key from the api is >>>', clientSecret)
-
+  useEffect(()=>{
+      //generate the special stripe secret to charge the customer
+      //when basket changes we need t tell stripe give new secret
+        const getClientSecret= async ()=>{
+            const respone = await axios({
+              method: 'post',
+              //stripe expects currency 
+              url: `/payments/create/?total=${getBasketTotal(basket) * 100}`
+            })  
+            setClientSecret(respone.data.clientSecret)
+        }
+  },[basket])
+  console.log('secret is ',clientSecret)
 
   const navigate = useNavigate();
 
@@ -52,7 +50,7 @@ console.log('secret key from the api is >>>', clientSecret)
        setSucceded(true)
        setError(null)
        setProcessing(false)
-       navigate('/oders')
+       navigate.replace('/oders')
     })
 
   };
@@ -129,3 +127,52 @@ console.log('secret key from the api is >>>', clientSecret)
 };
 
 export default Payment;
+
+
+
+and the code for index.js in functions
+const functions = require("firebase-functions");
+const express = require ("express");
+const cors = require("cors");
+const { request, response } = require("express");
+
+const stripe = require ("stripe")('sk_test_51KsSipSCCbalLSeDJlCgpheYCuo4me6hvsOboYc1mqtEEFqm0AFlOBJ8EXFe9okBQoBCmuswRGZLmhdjJuDkiPp600RQrfhLZ6')
+//API
+
+// App config
+const app= express();
+
+//Middlewares
+app.use(cors({origin:true}));
+app.use(express.json());
+
+
+//Apri roots
+app.post('/payments/create',async (request,response)=>{
+    const total= request.body.total;
+    console.log('Payment request Recived!!for this amount >>>>',total)
+    const paymentIntend = await stripe.paymentIntend.create({
+      amount: total, // subunits of the currency
+      currency: "inr",
+    });
+
+  
+    // Ok 
+    response.status(201).send({
+      clientSecret: paymentIntend.client_secret,
+
+    });
+  
+
+  });
+
+
+
+//listen Commands
+
+exports.api = functions.https.onRequest(app)
+
+
+
+
+
