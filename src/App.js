@@ -87,8 +87,21 @@ function App() {
 
 
               </>
+
             }
           />
+          <Route
+            exact
+            path="/orders"
+            element={
+              <>
+                <Header />
+               
+
+              </>
+            }
+            />
+            
         </Routes>
       </Router>
     </div>
