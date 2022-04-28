@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import CheckoutProduct from "./CheckoutProduct";
 import "./Payment.css";
 import { useStateValue } from "./StateProvider";
@@ -7,6 +7,8 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "./reducer";
 import { useEffect } from "react";
+import { db } from "./firebase";
+
 import axios from "./Axios.js";
 const Payment = () => {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -29,29 +31,51 @@ const Payment = () => {
     };
 
     getClientSecret();
+
   }, [basket]);
 
   console.log("The secret key we got from api is >>>", clientSecret);
+
   const navigate = useNavigate();
   const handleSubmit = async (event) => {
     // do all the fancy stripe stuff...
     event.preventDefault();
     setProcessing(true);
+    console.log("hello",basket);
+
+
+    
 
     const payload = await stripe
       .confirmCardPayment(clientSecret, {
-        payment_method: { //the card effect comes from here
+        payment_method: {
           card: elements.getElement(CardElement),
+
         },
       })
       .then(({ paymentIntent }) => {
-        // paymentIntent = payment confirmation
+        // paymentIntent = payment conformation
+
+
+        db.collection("users")
+          .doc(user?.uid)
+          .collection("orders")
+          .doc(paymentIntent.id)
+          .set({
+            basket: [{basket}], 
+            amount: paymentIntent?.amount, //Add check here
+            created: paymentIntent?.created, //Also check here
+        })
 
         setSucceeded(true);
         setError(null);
         setProcessing(false);
 
-        navigate("/orders"); // after transaction takde to oders page
+        dispatch({
+          type: "EMPTY_BASKET",
+        });
+
+        navigate("/orders");
       });
   };
   const handleChange = (event) => {

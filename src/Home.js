@@ -17,24 +17,29 @@ const Home = () => {
         <img className="home__imge" src={banner} alt="" />
         <div className="home__row">
           <Product  title='Sangam - Elegant shades of Pink and classy look of silk sarees make it a preferred choice for wearing at formal occasions. '
-          price={1499}
+           id={10}
+         price={1499}
           image={im1}
           rating={4} />
           <Product  title='Moon Silks - Elegant shades of Pink and classy look of silk sarees make it a preferred choice for wearing at formal occasions. '
-          price={1499}
+         id={11}
+         price={1499}
           image={im6}
           rating={5}/>
         </div>
         <div className="home__row">
           <Product  title='Honey Silks - Elegant shades of Pink and classy look of silk sarees make it a preferred choice for wearing at formal occasions. '
+          id={12}
           price={999}
           image={im2}
           rating={5}/>
           <Product  title='Moon Silks - Elegant shades of Pink and classy look of silk sarees make it a preferred choice for wearing at formal occasions. '
-          price={3999}
+         id={13}
+         price={3999}
           image={im3}
           rating={4}/>
           <Product  title='Sangam - Elegant shades of Pink and classy look of silk sarees make it a preferred choice for wearing at formal occasions. '
+          id={14}
           price={1499}
           image={im4}
           rating={5}/>
@@ -42,10 +47,12 @@ const Home = () => {
         <div className="home__row">
           <Product 
           title='Honey Silks - Elegant shades of Pink and classy look of silk sarees make it a preferred choice for wearing at formal occasions. '
+          id={15}
           price={1499}
           image={im5}
           rating={5}/>
           <Product  title='Moon Silks - Elegant shades of Pink and classy look of silk sarees make it a preferred choice for wearing at formal occasions. '
+          id={16}
           price={1499}
           image={im6}
           rating={5}/>
