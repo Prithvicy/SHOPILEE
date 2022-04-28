@@ -56,15 +56,15 @@ const Payment = () => {
       .then(({ paymentIntent }) => {
         // paymentIntent = payment conformation
 
-
-        db.collection("users")
-          .doc(user?.uid)
-          .collection("orders")
-          .doc(paymentIntent.id)
-          .set({
-            basket: [{basket}], 
-            amount: paymentIntent?.amount, //Add check here
-            created: paymentIntent?.created, //Also check here
+        db
+        .collection('users')
+        .doc(user?.uid)
+        .collection('orders')
+        .doc(paymentIntent.id)
+        .set({
+            basket: basket,
+            amount: paymentIntent.amount,
+            created: paymentIntent.created
         })
 
         setSucceeded(true);
